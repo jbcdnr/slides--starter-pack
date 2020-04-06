@@ -1,5 +1,5 @@
-import { Controller, SlideDeck, PresenterNotes } from "../../src";
-import { youtubePlugin } from "../../src/plugins";
+import { Controller, SlideDeck, PresenterNotes } from "./lib/slides/src";
+import { youtubePlugin } from "./lib/slides/src/plugins";
 import moment from "moment";
 
 import slides from "./slides.json"; // generated with preprocess_slides.py

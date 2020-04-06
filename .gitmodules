@@ -1,0 +1,3 @@
+[submodule "lib/slides"]
+	path = lib/slides
+	url = git@github.com:tvogels/slides.git

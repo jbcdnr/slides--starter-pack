@@ -2,27 +2,25 @@
 
 This repository is a starter pack to create a new deck of slides. Follow these steps to create and build a new deck:
 
-- use this [Github repository](https://github.com/jbcdnr/slides--starter-pack) as a template
-- clone the original [slides repository](https://github.com/tvogels/slides)
+- Use this [Github repository](https://github.com/jbcdnr/slides--starter-pack) as a template
+- Clone it with submodules
 
 ```
-git clone https://github.com/tvogels/slides.git
+git clone --recursive [URL to your deck repo]
 ```
 
-- Add your new deck to `decks`
 
+- Optional: update the library submodules
 ```
-cd slides/decks
-git submodule add <YOUR-NEW-DECK-GIT-REPO> 2020-04-03-NEW-DECK
-cd 2020-04-03-NEW-DECK
+git submodule update --remote
+git commit -m "Update slides lib to latest commit"
 ```
 
 - If you are using Sketch, you can automaticaly build the deck when you save the file `slides.sketch`
 
 ```
-../../sketch-generate.sh .
+./sketch-generate.sh .
 ```
-
 
 - Serve the deck
 
