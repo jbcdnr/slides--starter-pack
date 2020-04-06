@@ -2,13 +2,11 @@
 
 This repository is a starter pack to create a new deck of slides. Follow these steps to create and build a new deck:
 
-- Use this [Github repository](https://github.com/jbcdnr/slides--starter-pack) as a template
-- Clone it with submodules
+- Use this repo as a template and clone it with submodules
 
 ```
 git clone --recursive [URL to your deck repo]
 ```
-
 
 - Optional: update the library submodules
 ```
